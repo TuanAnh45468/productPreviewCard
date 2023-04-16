@@ -18,4 +18,8 @@
     img{
         @apply min-[375px]:rounded-t-xl lg:rounded-l-xl lg:rounded-tr-none
     }
+
+    button{
+        @apply hover:bg-hover-cyan rounded-lg font-bold bg-dark-cyan text-white mx-auto mt-10 mb-5 h-12 transition duration-200 ease-in-out
+    }
 }
