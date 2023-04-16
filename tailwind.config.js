@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     colors:{
       "dark-cyan": "hsl(158, 36%, 37%)",
+      "hover-cyan": "hsl(158, 36%, 25%)",
       "cream": "hsl(30, 38%, 92%)",
       "dark-blue": "hsl(212, 21%, 14%)",
       "dark-grayish-blue": "hsl(228, 12%, 48%)",
