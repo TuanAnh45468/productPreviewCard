@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    html{
+        @apply text-sm
+    }
+
+    h1{
+        @apply font-fraunces text-3xl
+    }
+
+    p{
+        @apply font-montserrat text-dark-grayish-blue
+    }
+
+    img{
+        @apply min-[375px]:rounded-t-xl lg:rounded-l-xl lg:rounded-tr-none
+    }
+}
