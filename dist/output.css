@@ -713,16 +713,6 @@ button:hover {
   }
 }
 
-@media (min-width: 768px) {
-  .md\:w-\[600px\] {
-    width: 600px;
-  }
-
-  .md\:flex-row {
-    flex-direction: row;
-  }
-}
-
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
